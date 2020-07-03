@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(167, 196, 39);
+}
+
+body * {
+    font-size: 24px;
+    font-family: arial;
+}
+
+button {
+    background-color: cadetblue;
+    border: 2px solid #000;
+    height: 6vh;
+    border-radius: 10px 5px;
+}
+
+.add,
+.clean {
+    width: 10vw;
+}
+
+.showAdvice,
+.showOptions {
+    width: 25vw;
+}
+
+.showOptions {
+    position: absolute;
+    top: 17vh;
+    left: 32vw;
+}
+
+.showAdvice {
+    position: absolute;
+    top: 17vh;
+    left: 3vw;
+}
+
+h1 {
+    position: absolute;
+    top: 25vh;
+    left: 2vw;
+}
+
+.active {
+    background-color: #000;
+    color: white;
+}
